@@ -1,4 +1,4 @@
-import { Character } from './character';
+import { Character } from './index';
 
 export class Squire extends Character {
   constructor(
