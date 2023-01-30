@@ -13,6 +13,7 @@ En Juego de Tronos existen personajes. Todos esos personajes tienen la siguiente
 -Familia a la que pertenece
 
 - Edad
+
 - Estado (vivo o muerto, aunque inicialmente todos están vivos)
 
 Todos los personajes pueden realizar la acción de comunicar, pero cada tipo de personaje (no cada personaje) se comunica de un modo distinto. Nota: este método devuelve el string con la frase, no imprime por consola.
