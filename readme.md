@@ -1,5 +1,7 @@
 # Week 3 - Challenge 1
+
 ## GoT DOM
+
 Tendrás que programar un interfaz de usuario para que refleje el siguiente modelo de datos.
 
 Modelo de datos
