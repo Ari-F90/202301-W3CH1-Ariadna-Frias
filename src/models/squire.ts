@@ -1,7 +1,6 @@
 /* eslint-disable max-params */
 /* eslint-disable no-unused-vars */
 import { Character } from './character';
-import { Fighter } from './fighter';
 
 export class Squire extends Character {
   constructor(
