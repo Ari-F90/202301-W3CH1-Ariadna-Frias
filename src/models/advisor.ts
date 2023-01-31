@@ -1,5 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { Character } from './character';
+import { King } from './king';
+import { Fighter } from './fighter';
+import { Squire } from './squire';
 
 export class Advisor extends Character {
   constructor(
