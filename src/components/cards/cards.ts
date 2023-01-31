@@ -1,7 +1,6 @@
 import { InsertPosition, Component } from '../component/component';
 
-import { characters } from '../../mocks/characters';
-export class Charactercards extends Component {
+export class Cards extends Component {
   constructor(public selector: string) {
     super();
     this.selector = selector;
