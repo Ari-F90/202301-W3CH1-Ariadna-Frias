@@ -1,18 +1,18 @@
 /* eslint-disable no-unused-vars */
-import { Character } from './index';
+import { Character } from './character';
 
-export class King extends Character {
+export class Advisor extends Character {
   constructor(
     name: string,
     family: string,
     age: number,
-    public kingdomAges: number
+    public advisedPerson: string
   ) {
     super(name, family, age);
   }
 
   greetings() {
     super.greetings();
-    return 'You are going to die';
+    return 'I do not know why, but I think that I am going to die earlier';
   }
 }
