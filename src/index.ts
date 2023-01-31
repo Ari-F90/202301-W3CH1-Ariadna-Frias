@@ -1,9 +1,7 @@
-export class Character {
-  private isLive: boolean;
+/* eslint-disable no-unused-vars */
+export abstract class Character {
+  public isLive: boolean;
   constructor(public name: string, public family: string, public age: number) {
-    this.name = name;
-    this.family = family;
-    this.age = age;
     this.isLive = true;
   }
 
