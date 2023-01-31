@@ -1,4 +1,5 @@
-import { Character } from './character';
+/* eslint-disable no-unused-vars */
+import { Character } from './index';
 
 export class Advisor extends Character {
   constructor(
@@ -8,7 +9,6 @@ export class Advisor extends Character {
     public advisedPerson: string
   ) {
     super(name, family, age);
-    this.advisedPerson = advisedPerson;
   }
 
   greetings() {
