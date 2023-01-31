@@ -1,3 +1,5 @@
+/* eslint-disable max-params */
+/* eslint-disable no-unused-vars */
 import { Character } from './index';
 
 export class Squire extends Character {
@@ -9,8 +11,6 @@ export class Squire extends Character {
     public servility: number
   ) {
     super(name, family, age);
-    this.servePersonTo = servePersonTo;
-    this.servility = servility;
   }
 
   greetings() {
