@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { Character } from './index';
+import { Character } from './character';
 
 export class Advisor extends Character {
   constructor(
