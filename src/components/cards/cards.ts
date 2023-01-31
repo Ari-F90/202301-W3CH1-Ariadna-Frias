@@ -1,7 +1,6 @@
 import { InsertPosition, Component } from '../component/component';
 
 import { characters } from '../../mocks/characters';
-
 export class Charactercards extends Component {
   constructor(public selector: string) {
     super();
@@ -10,8 +9,8 @@ export class Charactercards extends Component {
   }
 
   private createTemplate() {
-    return ` <div class="card-body">
-            <h2 class="character__name card-title h4">${this.name} y familia</h2>
+    return ` div class="card-body">
+            <h2 class="character__name card-title h4">Nombre y familia</h2>
             <div class="character__info">
               <ul class="list-unstyled">
                 <li>Edad: X años</li>
