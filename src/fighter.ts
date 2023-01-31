@@ -1,3 +1,5 @@
+/* eslint-disable max-params */
+/* eslint-disable no-unused-vars */
 import { Character } from './index';
 
 export class Fighter extends Character {
@@ -9,8 +11,6 @@ export class Fighter extends Character {
     public skill: number
   ) {
     super(name, family, age);
-    this.weapon = weapon;
-    this.skill = skill;
   }
 
   greetings() {
